@@ -19,6 +19,6 @@ public class Avancement {
     private Long id_av;
     private Double pk_debut;
     private Double pk_fin;
-
+    private Double avancement; // Progress percentage (0-100)
 
 }
