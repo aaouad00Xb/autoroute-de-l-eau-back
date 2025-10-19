@@ -972,6 +972,7 @@ return  this.terrassementRepo.getValidate();
     public Tuyaux getTuyItemSynth() {
 //todo
         Tuyaux current = this.getTuyItemToEdit();
+        System.out.println("current"+current);
         if(this.tuyouxRepo.getValidate()== null){
             return Tuyaux.builder().date(new Date()).prevu_tuyaux(Prevu_tuyaux.builder().build()).reel_tuyaux(Reel_tuyaux.builder().build()).build();
         }
